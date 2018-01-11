@@ -1,3 +1,15 @@
-source "https://rubygems.org"
+source 'http://rubygems.org'
 
-gem "rspec", "=3.5"
+gem "rails"
+gem "pg"
+gem "devise"
+gem "omniauth"
+gem "omniauth-facebook"
+gem "omniauth-twitter"
+
+gem "nokogiri"
+
+group :test, :development do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+end
