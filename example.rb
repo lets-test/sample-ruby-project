@@ -1,7 +1,3 @@
-class CardDeck
-  NUM_CARDS = 52
-end
-
 RSpec.describe CardDeck do
   describe "#score" do
     it "transfer" do
